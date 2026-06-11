@@ -105,9 +105,18 @@ window.Quarto = {
 
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="figuras.css">
+<link rel="stylesheet" href="figuras_02.css">
+<link rel="stylesheet" href="figuras_03.css">
+<link rel="stylesheet" href="figuras_04.css">
+<link rel="stylesheet" href="figuras_05.css">
+<link rel="stylesheet" href="figuras_06.css">
 <link rel="stylesheet" href="figuras_07.css">
 <link rel="stylesheet" href="figuras_08.css">
 <link rel="stylesheet" href="figuras_09.css">
+<link rel="stylesheet" href="figuras_10.css">
+<link rel="stylesheet" href="figuras_11.css">
+<link rel="stylesheet" href="figuras_12.css">
+<link rel="stylesheet" href="figuras_13.css">
 </head>
 
 <body class="nav-sidebar floating quarto-light">
@@ -332,8 +341,8 @@ window.Quarto = {
   <li><a href="#pasar-el-test-garantiza-la-normalidad" id="toc-pasar-el-test-garantiza-la-normalidad" class="nav-link" data-scroll-target="#pasar-el-test-garantiza-la-normalidad">Pasar el test ¿garantiza la Normalidad?</a></li>
   </ul></li>
   <li><a href="#apéndice-9.a-reflexiones-en-torno-al-p-valor" id="toc-apéndice-9.a-reflexiones-en-torno-al-p-valor" class="nav-link" data-scroll-target="#apéndice-9.a-reflexiones-en-torno-al-p-valor">APÉNDICE 9.A: Reflexiones en torno al p-valor</a></li>
-  <li><a href="#apéndice-9.b-intervalos-de-confianza-como-alternativa-al--valor" id="toc-apéndice-9.b-intervalos-de-confianza-como-alternativa-al--valor" class="nav-link" data-scroll-target="#apéndice-9.b-intervalos-de-confianza-como-alternativa-al--valor">APÉNDICE 9.B: Intervalos de confianza como alternativa al -valor</a></li>
-  <li><a href="#apéndice-9.c-más-sobre-las-distribuciones--student-y-chi-cuadrado" id="toc-apéndice-9.c-más-sobre-las-distribuciones--student-y-chi-cuadrado" class="nav-link" data-scroll-target="#apéndice-9.c-más-sobre-las-distribuciones--student-y-chi-cuadrado">APÉNDICE 9.C: Más sobre las distribuciones -Student y Chi-cuadrado</a></li>
+  <li><a href="#apéndice-9.b-intervalos-de-confianza-como-alternativa-al-p-valor" id="toc-apéndice-9.b-intervalos-de-confianza-como-alternativa-al-p-valor" class="nav-link" data-scroll-target="#apéndice-9.b-intervalos-de-confianza-como-alternativa-al-p-valor">APÉNDICE 9.B: Intervalos de confianza como alternativa al <span class="math inline">\(p\)</span>-valor</a></li>
+  <li><a href="#apéndice-9.c-más-sobre-las-distribuciones-t-student-y-chi-cuadrado" id="toc-apéndice-9.c-más-sobre-las-distribuciones-t-student-y-chi-cuadrado" class="nav-link" data-scroll-target="#apéndice-9.c-más-sobre-las-distribuciones-t-student-y-chi-cuadrado">APÉNDICE 9.C: Más sobre las distribuciones <span class="math inline">\(t\)</span>-Student y Chi-cuadrado</a></li>
   <li><a href="#apéndice-9.d-test-de-aquí-su-nombre" id="toc-apéndice-9.d-test-de-aquí-su-nombre" class="nav-link" data-scroll-target="#apéndice-9.d-test-de-aquí-su-nombre">Apéndice 9.D: Test de <em>[aquí su nombre]</em></a>
   <ul class="collapse">
   <li><a href="#diseño-del-test" id="toc-diseño-del-test" class="nav-link" data-scroll-target="#diseño-del-test">Diseño del test</a></li>
@@ -1490,8 +1499,8 @@ Figura&nbsp;9.18: Test de comparación de medias de la <span class="math inline"
 <p>Usando el <span class="math inline">\(p\)</span>-valor se puede establecer una regla de decisión sin necesidad de deliberaciones basadas en criterios subjetivos: basta con fijar de antemano qué nivel de error se está dispuesto a aceptar y compararlo con el <span class="math inline">\(p\)</span>-valor.</p>
 </section>
 </section>
-<section id="apéndice-9.b-intervalos-de-confianza-como-alternativa-al--valor" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="apéndice-9.b-intervalos-de-confianza-como-alternativa-al--valor">APÉNDICE 9.B: Intervalos de confianza como alternativa al -valor</h2>
+<section id="apéndice-9.b-intervalos-de-confianza-como-alternativa-al-p-valor" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="apéndice-9.b-intervalos-de-confianza-como-alternativa-al-p-valor">APÉNDICE 9.B: Intervalos de confianza como alternativa al <span class="math inline">\(p\)</span>-valor</h2>
 <p>Otra manera de plantearse lo razonable que es un valor para un parámetro poblacional evitando la sensación de “blanco o negro” que se tiene comparando el <span class="math inline">\(p\)</span>-valor con el nivel de significación es dar un intervalo de confianza del parámetro de interés. Si a partir de la siguiente muestra:</p>
 <div class="tabla-wrapper_T0900a">
 
@@ -1609,8 +1618,8 @@ Figura&nbsp;9.18: Test de comparación de medias de la <span class="math inline"
 </div>
 <p>Contrastamos <span class="math inline">\(\mu_A = \mu_B\)</span> frente a <span class="math inline">\(\mu_A \neq \mu_B\)</span>, el <span class="math inline">\(p\)</span>-valor es 0,033 y el intervalo de confianza del 95 % para <span class="math inline">\(\mu_A - \mu_B\)</span> es (0,099; 2,101); el cero queda fuera de este intervalo, luego no es un valor razonable para la diferencia de medias con ese nivel de confianza. Los intervalos que estamos calculando son simétricos respecto a la estimación puntual y son equivalentes al contraste de hipótesis cuando la alternativa es del tipo “distinto de”.</p>
 </section>
-<section id="apéndice-9.c-más-sobre-las-distribuciones--student-y-chi-cuadrado" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="apéndice-9.c-más-sobre-las-distribuciones--student-y-chi-cuadrado">APÉNDICE 9.C: Más sobre las distribuciones -Student y Chi-cuadrado</h2>
+<section id="apéndice-9.c-más-sobre-las-distribuciones-t-student-y-chi-cuadrado" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="apéndice-9.c-más-sobre-las-distribuciones-t-student-y-chi-cuadrado">APÉNDICE 9.C: Más sobre las distribuciones <span class="math inline">\(t\)</span>-Student y Chi-cuadrado</h2>
 <p>Ambas aparecen con frecuencia en los análisis estadísticos. Intervienen en la construcción de intervalos de confianza —la <span class="math inline">\(t\)</span>-Student en el caso de las medias y la chi-cuadrado en el de las varianzas— y se utilizan como distribuciones de referencia en test estadísticos muy habituales.</p>
 <section id="distribución-t-student" class="level4 unnumbered">
 <h4 class="unnumbered anchored" data-anchor-id="distribución-t-student">Distribución <span class="math inline">\(t\)</span>-Student</h4>

@@ -1010,7 +1010,7 @@ Es cierto que, si una representación gráfica de los resultados no despeja nues
 
 Usando el $p$-valor se puede establecer una regla de decisión sin necesidad de deliberaciones basadas en criterios subjetivos: basta con fijar de antemano qué nivel de error se está dispuesto a aceptar y compararlo con el $p$-valor.
 
-## APÉNDICE 9.B: Intervalos de confianza como alternativa al \textit{p}-valor {.unnumbered}
+## APÉNDICE 9.B: Intervalos de confianza como alternativa al $p$-valor {.unnumbered}
 
 Otra manera de plantearse lo razonable que es un valor para un parámetro poblacional evitando la sensación de "blanco o negro" que se tiene comparando el $p$-valor con el nivel de significación es dar un intervalo de confianza del parámetro de interés. Si a partir de la siguiente muestra:
 
@@ -1101,7 +1101,7 @@ Naturalmente, lo anterior también vale cuando se contrasta una diferencia de me
 ```
 Contrastamos $\mu_A = \mu_B$ frente a $\mu_A \neq \mu_B$, el $p$-valor es 0,033 y el intervalo de confianza del 95 % para $\mu_A - \mu_B$ es (0,099; 2,101); el cero queda fuera de este intervalo, luego no es un valor razonable para la diferencia de medias con ese nivel de confianza. Los intervalos que estamos calculando son simétricos respecto a la estimación puntual y son equivalentes al contraste de hipótesis cuando la alternativa es del tipo "distinto de".
 
-## APÉNDICE 9.C: Más sobre las distribuciones \textit{t}-Student y Chi-cuadrado {.unnumbered}
+## APÉNDICE 9.C: Más sobre las distribuciones $t$-Student y Chi-cuadrado {.unnumbered}
 
 Ambas aparecen con frecuencia en los análisis estadísticos. Intervienen en la construcción de intervalos de confianza —la $t$-Student en el caso de las medias y la chi-cuadrado en el de las varianzas— y se utilizan como distribuciones de referencia en test estadísticos muy habituales.
 
